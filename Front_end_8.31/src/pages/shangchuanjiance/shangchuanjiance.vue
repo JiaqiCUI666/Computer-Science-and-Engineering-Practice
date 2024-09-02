@@ -96,13 +96,13 @@
     margin-left: 0.13rem;
     color: #ffffff;
     font-size: 1.5rem;
-    font-family: "Noto Sans", sans-serif; /* 使用黑体字体 */
+    font-family: "Noto Serif SC", serif; /* 使用黑体字体 */
     font-weight: 700;
     line-height: 1.31rem;
   }
   .font {
     font-size: 1.2rem; /* 增大字体大小 */
-    font-family: "Noto Sans", sans-serif; /* 使用黑体字体 */
+    font-family: "Noto Serif SC", serif; /* 使用黑体字体 */
     line-height: 0.94rem;
     color: #ffffff;
   }
@@ -132,7 +132,7 @@
   }
   .font_2 {
     font-size: 2rem;
-    font-family: "Noto Sans", sans-serif;
+    font-family: "Noto Serif SC", serif;
     line-height: 1.39rem;
     font-weight: 700;
     color: #ffffff;
@@ -143,7 +143,7 @@
   .text_6 {
     color: #ffffff;
     font-size: 1.2rem;
-    font-family: "Noto Sans", sans-serif;
+    font-family: "Noto Serif SC", serif;
     line-height: 0.57rem;
   }
   .section_2 {
@@ -154,7 +154,7 @@
   }
   .font_3 {
     font-size: 1.2rem;
-    font-family: "Noto Sans", sans-serif;
+    font-family: "Noto Serif SC", serif;
     line-height: 0.47rem;
     color: #505050;
   }

@@ -54,18 +54,13 @@
         </div>
       </div>
       <div class="mt-30 flex-row justify-center relative group_7">
-        <img
-          class="self-center image_2 pos"
-          src="https://ide.code.fun/api/image?token=66d15b8763765d0012a2d3da&name=59d1abcd57576838d85ba1fd96da5591.png"
-        />
+        
+        <span class="self-center image_2 pos artistic-text">2</span>
         <span class="self-start font_4">1112365975900@qq.com</span>
         <span class="self-center font_3 pos_2">操作步骤描述111</span>
       </div>
       <div class="mt-30 flex-row justify-center relative group_8">
-        <img
-          class="self-center image_3 pos_3"
-          src="https://ide.code.fun/api/image?token=66d15b8763765d0012a2d3da&name=815a75d4f3a6978e6f37481a24b291f4.png"
-        />
+        <span class="self-center image_2 pos artistic-text">2</span>
         <span class="self-start font_4">2222365975900@qq.com</span>
         <span class="self-center font_3 pos_4">操作步骤描述222</span>
       </div>
@@ -75,6 +70,13 @@
 </template>
 
 <style scoped lang="css">
+  .artistic-text {
+    font-family: "Noto Serif SC", serif; /* 选择字体，可以替换为艺术字体 */
+    font-size: 36px; /* 设置字体大小 */
+    color: #faf1f1; /* 设置文字颜色 */
+    text-shadow: 2px 2px 4px #000000; /* 添加文字阴影效果 */
+    letter-spacing: 2px; /* 调整字间距 */
+  }
   .ml-95 {
     margin-left: 5.94rem;
   }
@@ -98,13 +100,13 @@
     margin-left: 0.13rem;
     color: #ffffff;
     font-size: 1.5rem;
-    font-family: "Noto Sans", sans-serif; /* 使用黑体字体 */
+    font-family: "Noto Serif SC", serif; /* 使用黑体字体 */
     font-weight: 700;
     line-height: 1.31rem;
   }
   .font {
     font-size: 1.2rem; /* 增大字体大小 */
-    font-family: "Noto Sans", sans-serif; /* 使用黑体字体 */
+    font-family: "Noto Serif SC", serif; /* 使用黑体字体 */
     line-height: 0.94rem;
     color: #ffffff;
   }
@@ -131,13 +133,13 @@
   .text_5 {
     color: #ffffff;
     font-size: 3rem;
-    font-family: "Noto Serif", sans-serif;
+    font-family: "Noto Serif SC", serif;
     line-height: 2.7rem;
   }
   .text_6 {
     color: #ffffff;
     font-size: 1.13rem;
-    font-family: "Noto Serif", sans-serif;
+    font-family: "Noto Serif SC", serif;
     line-height: 1.14rem;
   }
   .group_4 {
@@ -153,7 +155,7 @@
   }
   .font_2 {
     font-size: 1.8rem;
-    font-family: "Noto Serif", sans-serif;
+    font-family: "Noto Serif SC", serif;
     line-height: 2.06rem;
     color: #ffffff;
   }
@@ -186,13 +188,13 @@
   }
   .font_4 {
     font-size: 1.5rem;
-    font-family: "Noto Serif", sans-serif;
+    font-family: "Noto Serif SC", serif;
     line-height: 1.51rem;
     color: #ffffff;
   }
   .font_3 {
     font-size: 1.5rem;
-    font-family: "Noto Serif", sans-serif;
+    font-family: "Noto Serif SC", serif;
     line-height: 1.38rem;
     color: #ffffff;
   }
