@@ -93,15 +93,7 @@ function triggerFileUpload() {
           <span class="ml-84 font text_4" @click="onClick_3">黑名单展示</span>
         </div>
       </div>
-    
-      <span class="font text_2" @click="onClick">主页</span>
-      <div class="flex-row shrink-0 group_2">
-        <span class="font" @click="onClick_1">上传检测</span>
-        <div class="flex-row shrink-0 ml-95">
-          <span class="font text_3" @click="onClick_2">防护提示</span>
-          <span class="ml-84 font text_4" @click="onClick_3">黑名单展示</span>
-        </div>
-      </div>
+  
     </div>
     <div class="flex-col self-stretch section">
       <br><br>
