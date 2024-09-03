@@ -1,10 +1,26 @@
 <script setup>
-  import { useRouter } from 'vue-router';
-  import { reactive, onMounted } from 'vue';
+import { reactive, onMounted } from 'vue';
+import axios from 'axios';  // 引入axios
+import { useRouter } from 'vue-router';
+
 
   const props = defineProps({});
+const data = reactive({
+  blacklist: []  // 用于存储黑名单数据
+});
 
-  const data = reactive({});
+onMounted(async () => {
+  try {
+    const response = await axios.get('/api/email/get_all_black_list');
+    if (response.data.success) {
+      data.blacklist = response.data.data;  // 保存黑名单数据
+    } else {
+      console.error('获取黑名单数据失败', response.data.message);
+    }
+  } catch (error) {
+    console.error('获取黑名单数据失败', error);
+  }
+});
 
   const router = useRouter();
 
@@ -23,13 +39,16 @@
   function onClick_3() {
     router.push({ name: 'heimingdanzhanshi' });
   }
+
 </script>
 
 <template>
   <div class="flex-col page">
-    <div class="flex-row items-center  group">
-      <div class="flex-col justify-start shrink-0 text-wrapper"><span class="text">智邮卫盾</span></div>
-      <span class="font text_2"  @click="onClick">主页</span>
+    <div class="flex-row items-center group">
+      <div class="flex-col justify-start shrink-0 text-wrapper">
+        <span class="text">智邮卫盾</span>
+      </div>
+      <span class="font text_2" @click="onClick">主页</span>
       <div class="flex-row shrink-0 group_2">
         <span class="font" @click="onClick_1">上传检测</span>
         <div class="flex-row shrink-0 ml-95">
@@ -38,45 +57,75 @@
         </div>
       </div>
     </div>
-    <img
-      class="self-center image"
-      src="@/image/topbackground.png"
-    />
+    <img class="self-center image" src="@/image/topbackground.png" />
     <div class="flex-col items-center self-center group_3">
       <span class="text_5">钓鱼邮件发件人黑名单</span>
     </div>
     <div class="flex-col self-stretch group_4">
-      <div class="flex-row justify-between group_5">
-        <span class="font_2">标号</span>
-        <div class="flex-row group_6">
-          <span class="self-start font_2 text_7">邮箱号</span>
-          <span class="font_2 text_8 ml-341">IP地址</span>
-        </div>
+      <div class="flex-row header-row" style="margin-top: 0;">
+        <span class="header-cell">标号</span>
+        <span class="header-cell">邮箱号</span>
+        <span class="header-cell">IP地址</span>
       </div>
-      <div class="mt-30 flex-row justify-center relative group_7">
-        
-        <span class="self-center image_2 pos artistic-text">2</span>
-        <span class="self-start font_4">1112365975900@qq.com</span>
-        <span class="self-center font_3 pos_2">操作步骤描述111</span>
+      <div v-for="(item, index) in data.blacklist" :key="index" class="flex-row data-row">
+        <span class="data-cell">{{ index + 1 }}</span>
+        <span class="data-cell">{{ item.email }}</span>
+        <span class="data-cell">{{ item.ip }}</span>
       </div>
-      <div class="mt-30 flex-row justify-center relative group_8">
-        <span class="self-center image_2 pos artistic-text">2</span>
-        <span class="self-start font_4">2222365975900@qq.com</span>
-        <span class="self-center font_3 pos_4">操作步骤描述222</span>
-      </div>
-      
     </div>
   </div>
 </template>
 
-<style scoped lang="css">
-  .artistic-text {
-    font-family: "Noto Serif SC", serif; /* 选择字体，可以替换为艺术字体 */
-    font-size: 36px; /* 设置字体大小 */
-    color: #faf1f1; /* 设置文字颜色 */
-    text-shadow: 2px 2px 4px #000000; /* 添加文字阴影效果 */
-    letter-spacing: 2px; /* 调整字间距 */
-  }
+<style scoped>
+.page {
+  padding: 1.06rem 0 1.69rem;
+  background-color: #000000;
+  width: 100%;
+  overflow-y: auto;
+  overflow-x: hidden;
+  height: 100%;
+}
+
+
+.data-row {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem 2.5rem;
+  border-bottom: 1px solid #e0e0e0;
+}
+.header-row {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem 2.5rem;
+  border-bottom: 1px solid #e0e0e0;
+  margin-top: 5rem; /* 缩小 "标号、邮箱号、IP地址" 与上方的距离 */
+}
+
+.header-cell,
+.data-cell {
+  flex: 1;
+  text-align: center;
+  font-family: "Noto Serif SC", serif;
+  color: #ffffff;
+}
+
+.header-cell {
+  font-weight: 700;
+  font-size: 1.8rem;
+}
+
+.data-cell {
+  font-weight: 400;
+  font-size: 1.3rem;
+}
+
+.artistic-text {
+  font-family: "Noto Serif SC", serif;
+  font-size: 36px;
+  color: #faf1f1;
+  text-shadow: 2px 2px 4px #000000;
+  letter-spacing: 2px;
+}
   .ml-95 {
     margin-left: 5.94rem;
   }
@@ -128,13 +177,14 @@
     height: 8vw;
   }
   .group_3 {
-    margin-top: 6.5rem;
+    margin-top: 5rem;
+    
   }
   .text_5 {
     color: #ffffff;
     font-size: 3rem;
     font-family: "Noto Serif SC", serif;
-    line-height: 2.7rem;
+    line-height: 2rem;
   }
   .text_6 {
     color: #ffffff;
