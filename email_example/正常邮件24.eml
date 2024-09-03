@@ -1,0 +1,46 @@
+Received: from m16.mail.163.com (unknown [117.135.210.5])
+	by gzmx5 (Coremail) with SMTP id pCkvCgDnd1U4stVmxAJ1AA--.43024S2;
+	Mon, 02 Sep 2024 20:40:24 +0800 (CST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=163.com;
+	s=s110527; h=Content-Type:MIME-Version:From:Subject:Message-Id:
+	Date; bh=z+plbIRsq2yvjThjBnTpTOHeotyJrUmBqYy8U4EsYmg=; b=b6k4DQT
+	392TVCY4HpGBUcUCVVvXMqMJpwVOlgaxVd660T1fYDfkH0nHvZkeHMv+Co1nIuFb
+	Azg3bH8QypReDytOgT/jtn4u5mgRRIF1+qzS8tZqdKoQfJJ8gc2GnsW0+yI8/fTA
+	VZ0BDnUrWovMHeIXlCucO1UgEEcGUfpK93fs=
+Received: from [192.168.48.1] (unknown [111.40.58.171])
+	by gzga-smtp-mta-g3-5 (Coremail) with SMTP id _____wD3f983stVm4MwVKw--.61672S2;
+	Mon, 02 Sep 2024 20:40:23 +0800 (CST)
+Content-Type: multipart/mixed; boundary="===============0416060689452801005=="
+MIME-Version: 1.0
+From: cjq15849290856@163.com
+To: cjq15849290856@126.com
+Subject: =?utf-8?b?5q2j5bi46YKu5Lu2MjQ=?=
+X-CM-TRANSID:_____wD3f983stVm4MwVKw--.61672S2
+Message-Id:<66D5B238.3022A2.00109@m16.mail.163.com>
+X-Originating-IP: [111.40.58.171]
+Date: Mon, 2 Sep 2024 20:40:24 +0800 (CST)
+X-CM-SenderInfo: 5fmtikqyuzjmaqyvlqqrwthudrp/xtbBMRhO9mV4HPBygAAAsS
+Authentication-Results: gzmx5; spf=pass smtp.mail=cjq15849290856@163.c
+	om; dkim=pass header.i=@163.com
+X-Coremail-Antispam: 1Uf129KBjDUn29KB7ZKAUJUUUUU529EdanIXcx71UUUUU7v73
+	VFW2AGmfu7jjvjm3AaLaJ3UbIYCTnIWIevJa73UjIFyTuYvjxU7tCzDUUUU
+
+--===============0416060689452801005==
+Content-Type: text/plain; charset="utf-8"
+MIME-Version: 1.0
+Content-Transfer-Encoding: base64
+
+5a+577yM6IGU57O75LiA5LiL77yM57uZ54K55pqX56S677yM5YW25LuW5LqL5bCx562J552A44CC
+aGVoZQogICAgIOaghyAg6aKYOiBSZTog5piv5LiN5piv5aWz55Sf5rC46L+c5LiN6KaB5Li75Yqo
+5ZWKCiAgICAgCiAgICAg6IGU57O75ZGXLgogICAgIAogICAgIDog6KeJ5b6X5LiA5LiqR0flvog4
+6ZSZCiAgICAgOiDlvojkuYXmsqHop4HkuoYKICAgICA6IOWlveS4jeWlveiBlOezu+S4i+WRogog
+ICAgIAogICAgIC0tCiAgICAg5oiR5Zac5qyi5ZCs55qE5puy5a2QKDYuMOeJiF5eKToKICAgICBS
+ZWQgU2lnbiAgICAgICAgICAgICAgICAg57ud5YirICAgICAgICAgICAgICAgICAgICAg6LWL5qC8
+5puyLeW3tOi1qwogICAgIE5pZ2h0IG9mIGZpcmUgICAgICAgICAgICBWMyAgICAgICAgICAgICAg
+ICAgICAgICAg5q275pyICiAgICAgTWlzc2luZyBVICAgICAgICAgICAgICAgIOWkp+mVv+S7ii3l
+uIzmnJsgICAgICAgICAgICAgIOWFieeahOWPpuS4gOmdogogICAgIOaipuS4reeahOaWsOWomCAg
+ICAgICAgICAgICAgIOWwkeWls+W5u+iRrCAgICAgICAgICAgICAgICAg5b+N6ICF6b6Z5YmR5Lyg
+KOi2heW8uuaXi+W+i+eJiCkKICAgICDnqbrnmb3lsJHlpbMgICAgICAgICAgICAgICAgIEF3ZSBv
+ZiBTaGUgICAgICAgICAgICAgICAgIC4uLi4odG8gYmUgY29udGludWVkLi4uLik=
+
+--===============0416060689452801005==--

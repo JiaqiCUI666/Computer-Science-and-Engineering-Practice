@@ -1,0 +1,42 @@
+Received: from m16.mail.163.com (unknown [117.135.210.2])
+	by gzmx6 (Coremail) with SMTP id qikvCgDnV8g1stVmHQJmAA--.33548S2;
+	Mon, 02 Sep 2024 20:40:21 +0800 (CST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=163.com;
+	s=s110527; h=Content-Type:MIME-Version:From:Subject:Message-Id:
+	Date; bh=CcyhIz9ZPMBCC1bcfrQJT2Y9kClOPyQVxIn+SQGvsb0=; b=FCX/zFZ
+	QqpZ9+dDqgtn6CszrA4l8YGTNJYL7AZmWq8YGjMt2lIdUv1O/TQHJUBJyzV7tYxY
+	hMNiAl6aR52P8R5Nu+3UlOTM++bQ6jt+xg6uGX2wo5sV3ajfE7ITmafxpEG0Rrh0
+	Kci2jMp8u96Lehiqb/M6GTqv+Z84F8Tfybe4=
+Received: from [192.168.48.1] (unknown [111.40.58.171])
+	by gzga-smtp-mta-g1-0 (Coremail) with SMTP id _____wD3fzAvstVmnh_dEA--.10337S2;
+	Mon, 02 Sep 2024 20:40:16 +0800 (CST)
+Content-Type: multipart/mixed; boundary="===============0108247491216781021=="
+MIME-Version: 1.0
+From: cjq15849290856@163.com
+To: cjq15849290856@126.com
+Subject: =?utf-8?b?5q2j5bi46YKu5Lu2MTU=?=
+X-CM-TRANSID:_____wD3fzAvstVmnh_dEA--.10337S2
+Message-Id:<66D5B234.01FAE6.00032@m16.mail.163.com>
+X-Originating-IP: [111.40.58.171]
+Date: Mon, 2 Sep 2024 20:40:20 +0800 (CST)
+X-CM-SenderInfo: 5fmtikqyuzjmaqyvlqqrwthudrp/xtbBMRRO9mV4HPByWwAAsF
+Authentication-Results: gzmx6; spf=pass smtp.mail=cjq15849290856@163.c
+	om; dkim=pass header.i=@163.com
+X-Coremail-Antispam: 1Uf129KBjDUn29KB7ZKAUJUUUUU529EdanIXcx71UUUUU7v73
+	VFW2AGmfu7jjvjm3AaLaJ3UbIYCTnIWIevJa73UjIFyTuYvjxUcO6pUUUUU
+
+--===============0108247491216781021==
+Content-Type: text/plain; charset="utf-8"
+MIME-Version: 1.0
+Content-Transfer-Encoding: base64
+
+44CQIOS7peS4i+aWh+Wtl+i9rOi9veiHqiBMb3N0Rm91bmQg6K6o6K665Yy6IOOAkQrlj5Hkv6Hk
+uro6IFRIVUd1YXJkICjlrabnlJ/msrvlronmnI3liqHpmJ8mYW1wO+WkseeJqeaLm+mihuWkhCks
+IOS/oeWMujogTG9zdEZvdW5kCuaghyAg6aKYOiDlpLHnianmi5vpooblpIQ45pyIMjDml6Xlt6Xk
+vZzorrDlvZUK6aKG5Y+WCuWImOaFp+i/nCAgSUPljaEK6YCB5LqkCuadjuW4hSAgICDpkqXljJnv
+vIgy5oqK77yJCuWlveW/g+S6uiAg5pWw56CB55u45py65py66K+75Y2hCuaKpeWksQrllJDkuq4g
+ICAg546w6YeRMzAw5YWDICAgICAgIDEzODEwODc4MDE3CuW8oOWtpuS4gCAg44CKb3BlbiBHTCDn
+vJbnqIvmjIfljZfjgIsgNTE1MzIxNzcK6YeR5oG6ICAgIG5va2lh5omL5py6ICAgICAgIDUxNTMy
+MTEw
+
+--===============0108247491216781021==--

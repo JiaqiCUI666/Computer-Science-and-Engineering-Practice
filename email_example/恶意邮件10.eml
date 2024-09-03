@@ -1,0 +1,72 @@
+Received: from m16.mail.163.com (unknown [220.197.31.5])
+	by gzmx8 (Coremail) with SMTP id rCkvCgC3V3RIstVm9d9sAA--.7154S2;
+	Mon, 02 Sep 2024 20:40:40 +0800 (CST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=163.com;
+	s=s110527; h=Content-Type:MIME-Version:From:Subject:Message-Id:
+	Date; bh=C7crDFqsdzPHVfym9saKhJHb1nxMqR5J1hlw9fLpYBQ=; b=TuEWrRo
+	4YIYAiCi1bnHbtRdPCNl21d++gN35AqBl6FIfh3MUrhR+BLYwtWJTgwmqBfYqH64
+	3BwVWlECorerqaI5z13joiUyRlxES1j2TtYQswW3ZR/qz/+JPBl56v4P3FFIfvsQ
+	u/0tqscW7rbuxK/s4+uFVdxvalEcFYIHDkrQ=
+Received: from [192.168.48.1] (unknown [111.40.58.171])
+	by gzga-smtp-mta-g3-1 (Coremail) with SMTP id _____wD3XxZCstVm0iIWBQ--.25128S2;
+	Mon, 02 Sep 2024 20:40:34 +0800 (CST)
+Content-Type: multipart/mixed; boundary="===============1897837726977612740=="
+MIME-Version: 1.0
+From: cjq15849290856@163.com
+To: cjq15849290856@126.com
+Subject: =?utf-8?b?5oG25oSP6YKu5Lu2MTA=?=
+X-CM-TRANSID:_____wD3XxZCstVm0iIWBQ--.25128S2
+Message-Id:<66D5B247.301759.00015@m16.mail.163.com>
+X-Originating-IP: [111.40.58.171]
+Date: Mon, 2 Sep 2024 20:40:39 +0800 (CST)
+X-CM-SenderInfo: 5fmtikqyuzjmaqyvlqqrwthudrp/xtbBMQdO9mV4HPBzQwAAsP
+Authentication-Results: gzmx8; spf=pass smtp.mail=cjq15849290856@163.c
+	om; dkim=pass header.i=@163.com
+X-Coremail-Antispam: 1Uf129KBjvJXoW7CF1Dur4DAF4UJr47Zw4kCrg_yoW8Xr43pF
+	18Jrs5uFW5GFWUuw4xXws0yryjga1S9a4ktrsxJF10vanIkrn3tr42kanFq3W5tF45XrWv
+	9F4ktFZY9rWqgw7anT9S1TB71UUUUU7qnTZGkaVYY2UrUUUUjbIjqfuFe4nvWSU8nxnvy2
+	9KBjDUYxBIdaVFxhVjvjDU0xZFpf9x07j0E_NUUUUU=
+
+--===============1897837726977612740==
+Content-Type: text/plain; charset="utf-8"
+MIME-Version: 1.0
+Content-Transfer-Encoding: base64
+
+UmVjZWl2ZWQ6IGZyb20gYmFydGVyY2hpbmEubmV0IChbMjIxLjIxOC4xMTguMzVdKQoJYnkgc3Bh
+bS1ndy5jY2VydC5lZHUuY24gKE1JTUVEZWZhbmcpIHdpdGggRVNNVFAgaWQgajdLMWFNc2UwMjE0
+NTMKCWZvciA8cmVuQGNjZXJ0LmVkdS5jbj47IFR1ZSwgMjMgQXVnIDIwMDUgMTA6MzQ6NDggKzA4
+MDAgKENTVCkKTWVzc2FnZS1JRDogPDIwMDUwODIwMDkzNi5qN0sxYU1zZTAyMTQ1M0BzcGFtLWd3
+LmNjZXJ0LmVkdS5jbj4KRnJvbTogPT9HQjIzMTI/Qj8wdGZUMGNuTXp2RT0/PSA8emhhb0BiYXJ0
+ZXJjaGluYS5uZXQ+ClN1YmplY3Q6ID0/Z2IyMzEyP0I/eFByUDY4emh1Ti9OK05XK3RjVEI5OEcv
+d3ZDanZ5QXdPVG8wT0RveU1RPT0/PQpUbzogcmVuQGNjZXJ0LmVkdS5jbgpDb250ZW50LVR5cGU6
+IHRleHQvaHRtbDtjaGFyc2V0PSJHQjIzMTIiClJlcGx5LVRvOiB6aGFvQGJhcnRlcmNoaW5hLm5l
+dApEYXRlOiBUdWUsIDIzIEF1ZyAyMDA1IDEwOjQ2OjQ4ICswODAwClgtUHJpb3JpdHk6IDIKWC1N
+YWlsZXI6IE1pY3Jvc29mdCBPdXRsb29rIEV4cHJlc3MgNS4wMC4yNjE1LjIwMAoKCiAgIOmCruS7
+tue+pOWPkS0tLeacgOebtOaOpeOAgeacgOacieaViOeahOW5v+WRiuaWueW8jyEKICAgCiAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAKCiAgICAgICAgICAgICAgICAgICAgICDjgJDnvZHn
+u5zokKXplIDlpKflhajjgJHlhYnnm5jkuJPkuJrniYhWMjAwNQoKICAgICDil4cKICAg5LiA56eN
+566A5Y2V55qE5pa55rOV5Y+v5Lul5biu5Yqp5L2g5b+r6YCf5a6e546w5Lia5Yqh5o6o5bm/5oiW
+5Y+R5biD5L+h5oGv55qE55uu55qE77yM6L+Z5bCx5piv6YKu5Lu26JClCiAgIOmUgOOAggogICAg
+IOKXhwogICDmraPlpoLmgqjmlLbliLDnmoTov5nlsIHlub/lkYrpgq7ku7bkuIDmoLfvvIzpgq7k
+u7bokKXplIDopobnm5bpnaLnp6/mnoHlpKfvvIzmlLbmlYjnlJrlub/vvIzmiJDmnKzkvY7lu4kK
+ICAg77yM5bey5oiQ5Li65pe25LiL5Liq5Lq65Y+K5LyB5Lia6L+b6KGM6JCl6ZSA5o6o5bm/55qE
+5paw562W55Wl77ybCiAgIOiAjOaLpeacieWkp+mHj+eahOWuouaIt+mCruS7tuWcsOWdgOWwhuaY
+r+aCqOaIkOWKn+eahOWFs+mUru+8gQoKICAgICAgICAgICAuLi4uLuS8muWRmOWItue9keerme+8
+geS4gOasoeS7mOi0ue+8jOawuOS5heS6q+WPl+WFjei0ueS8muWRmOWNh+e6p+acjeWKoe+8gQog
+ICAgICAgICAgICAgICAgICAgIC4uLi4u5q+P5pyIMTAw5LiH5Lul5LiK5YWN6LS55Y2H57qn5pu0
+5paw5pyN5Yqh77yBCiAgICAgICAgICAgICAgICAgICAgICAgICAgLi4uLi7lhY3otLnkuLrkvJrl
+kZjlrprliLbmkJzntKIhCiAgICAgICAgICAgICAgICAgICAuLi4uLlFR5Zyo57q/562U55aR77yM
+6Kej562U5L2/55So5Lit55qE5ZCE57G76Zeu6aKYIQoKICAgICAgICAgICAgICAgICAtLS3mj5Dk
+vpvlkITnsbvova/ku7bnmoTor6bnu4blm77op6Por7TmmI7vvIznroDljZXmmJPmh4LvvIEKCiAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKCiAgICAgICAgICAgICAgICAgICAgIOiBlOez
+u+eUteivne+8migwMTApNjgxNzgzNDcgIDY4MTg0NDMwCiAgICAgICAgICAgICAgICAgICAgICAg
+UVE6NDA0OTA5MjAyICjkuI3lnKjnur/ml7bor7fnlZnoqIApCiAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICDogZTns7vkurrvvJrpg5HmnYPlj4sgIOW8oOaVjwogICAgICAgICAgICAgICAgICAg
+ICAgICAg5Zyw5Z2A77ya5YyX5Lqs5biC6KW/5Zub546v5Lit6LevNznlj7cKICAgICAgICAgICAg
+ICAgICAgICAgICAgaHR0cDovL3d3dy52aXBzb2h1Lm5ldAogICAgICAgICAgICAgICAgICAgICAg
+ICAgICBodHRwOi8vY2Qudmlwc29odS5uZXQgCgogICAgICAgICAgICAgICAgIOaEn+iwouS9oOaJ
+k+W8gOacrOmCruS7tu+8jOelneaCqOW3peS9nOmhuuWIqe+8jOeUn+aEj+WFtOmahu+8gQogICAg
+ICAgICAgICAgICAgICAgICDmraTkv6HnlLHnvqTlj5Hova/ku7blj5HpgIHvvIzor7fli7/nm7Tm
+jqXlm57lpI3vvIEKCgoKCjs=
+
+--===============1897837726977612740==--

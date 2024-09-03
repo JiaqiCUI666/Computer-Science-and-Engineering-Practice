@@ -1,0 +1,61 @@
+Received: from m16.mail.163.com (unknown [220.197.31.2])
+	by gzga-mx-mta-g3-0 (Coremail) with SMTP id _____wDnFtFTstVmJvp1Eg--.8058S2;
+	Mon, 02 Sep 2024 20:40:51 +0800 (CST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=163.com;
+	s=s110527; h=Content-Type:MIME-Version:From:Subject:Message-Id:
+	Date; bh=3A/CKmNHDrWfh+HT+/Z8rLYC9InP9x72ZenGHeJ2HDA=; b=gXFsp6e
+	Wa8J4wR2y70jc8nRPoBAPfsPpjFfHbh0D9OyPVa1uU/4n1ixfqPwBHL2GL3cJTDr
+	OWAd9eHz32zS7JHOf+1iC6iux6L02Lq1gwqFL8AtlQpHug0KLquu8pnRzg+dIDQG
+	ssrPcHm9NED/ch1R/OLntTv/Rc1v3UNnD5bk=
+Received: from [192.168.48.1] (unknown [111.40.58.171])
+	by gzsmtp4 (Coremail) with SMTP id sygvCgDX8CVSstVmr2+YAg--.12601S2;
+	Mon, 02 Sep 2024 20:40:50 +0800 (CST)
+Content-Type: multipart/mixed; boundary="===============0650433430901683306=="
+MIME-Version: 1.0
+From: cjq15849290856@163.com
+To: cjq15849290856@126.com
+Subject: =?utf-8?b?5oG25oSP6YKu5Lu2MjQ=?=
+X-CM-TRANSID:sygvCgDX8CVSstVmr2+YAg--.12601S2
+Message-Id:<66D5B253.050A0C.21376@m16.mail.163.com>
+X-Originating-IP: [111.40.58.171]
+Date: Mon, 2 Sep 2024 20:40:51 +0800 (CST)
+X-CM-SenderInfo: 5fmtikqyuzjmaqyvlqqrwthudrp/xtbBMRFO9mV4HPBzswABso
+Authentication-Results: gzga-mx-mta-g3-0; spf=pass smtp.mail=cjq158492
+	90856@163.com; dkim=pass header.i=@163.com
+X-Coremail-Antispam: 1Uf129KBjvdXoW7GF1xJFW7tr4DAFWfGr47twb_yoW3urb_ur
+	48Ga9a9r4kX3W8Kw43tr1kJr4fAw4rZw4vk34qk3WkCFyfXan5X3Wagas3tFZ3WrWaqw45
+	G3yjgw1Fy3yakjkaLaAFLSUrUUUUjb8apTn2vfkv8UJUUUU8Yxn0WfASr-VFAU7a7-sFnT
+	9fnUUvcSsGvfC2KfnxnUUI43ZEXa7IUUAnY3UUUUU==
+
+--===============0650433430901683306==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+
+Received: from ddsender12.88ip.cn ([221.219.115.16])
+	by spam-gw.ccert.edu.cn (MIMEDefang) with ESMTP id j7G9Nhjs023746
+	for <xia@ccert.edu.cn>; Sat, 20 Aug 2005 10:56:06 +0800 (CST)
+Message-ID: <200508161723.j7G9Nhjs023746@spam-gw.ccert.edu.cn>
+Received: from unknown (HELO vlm29617.net) (184.218.176.17)
+	by 61.49.243.135 with SMTP; Sat, 20 Aug 2005 03:09:32 -0000
+X-Originating-IP: [184.218.176.17]
+Date: Sat, 20 Aug 2005 11:09:31 +0800
+From: "yun" <yun@ddsender12.88ip.cn>
+To: xia@ccert.edu.cn
+Subject: =?gb2312?B?zfLW1s28yunH5bLWo6zBvczsvbUx1dujoQ==?=
+X-Mailer: Microsoft Outlook Express 5.50.4522.1200
+Mime-Version: 1.0
+X-Priority: 3
+X-MSMail-Priority: Normal
+Content-Type: text/html;
+	charset="GB2312"
+Content-Transfer-Encoding: base64
+
+
+   
+
+
+
+
+;
+--===============0650433430901683306==--

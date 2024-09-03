@@ -3,12 +3,13 @@ import numpy as np
 from sklearn.ensemble import GradientBoostingClassifier
 import warnings
 import pickle
+import joblib
 warnings.filterwarnings('ignore')
 from feature import FeatureExtraction
 
 
-file = open("model.pkl","rb")
-gbc = pickle.load(file)
+file = open("F:\\计算机科学与工程实践\\Computer-Science-and-Engineering-Practice\\Algorithm\\model.pkl","rb")
+gbc = joblib.load(file)
 file.close()
 def extract_urls(text):
 

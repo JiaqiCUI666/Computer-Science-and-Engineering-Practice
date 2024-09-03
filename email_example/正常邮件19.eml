@@ -1,0 +1,48 @@
+Received: from m16.mail.163.com (unknown [220.197.31.5])
+	by gzmx8 (Coremail) with SMTP id rCkvCgDnL305stVmEN9sAA--.8030S2;
+	Mon, 02 Sep 2024 20:40:25 +0800 (CST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=163.com;
+	s=s110527; h=Content-Type:MIME-Version:From:Subject:Message-Id:
+	Date; bh=Y1W9cOT3yFkVpv0V5vPCBHqS6AoxQYIwDaonwmPYaeE=; b=UyaQV3F
+	pHr5/9cBiAnOjXIuFQCQWUcNt/eM1XeIVTm3XUOrw0SMa2XPv5JTmfvn+vm+5Ng5
+	XblQqg8yy5kGHpRuE8bj+ySc6ScFeBNBnryaw6CGDKCgZktjki28jDhSGwZcSjYi
+	tjfDrjA6iH4JBrjwEffYk8fzye1NZwQxnN2Y=
+Received: from [192.168.48.1] (unknown [111.40.58.171])
+	by gzga-smtp-mta-g1-0 (Coremail) with SMTP id _____wD3_0EzstVmcSHdEA--.8125S2;
+	Mon, 02 Sep 2024 20:40:20 +0800 (CST)
+Content-Type: multipart/mixed; boundary="===============5372632873051657893=="
+MIME-Version: 1.0
+From: cjq15849290856@163.com
+To: cjq15849290856@126.com
+Subject: =?utf-8?b?5q2j5bi46YKu5Lu2MTk=?=
+X-CM-TRANSID:_____wD3_0EzstVmcSHdEA--.8125S2
+Message-Id:<66D5B238.0C7D13.00016@m16.mail.163.com>
+X-Originating-IP: [111.40.58.171]
+Date: Mon, 2 Sep 2024 20:40:24 +0800 (CST)
+X-CM-SenderInfo: 5fmtikqyuzjmaqyvlqqrwthudrp/1tbiKBhO9mXAnHcnCQAAso
+Authentication-Results: gzmx8; spf=pass smtp.mail=cjq15849290856@163.c
+	om; dkim=pass header.i=@163.com
+X-Coremail-Antispam: 1Uf129KBjDUn29KB7ZKAUJUUUU8529EdanIXcx71UUUUU7v73
+	VFW2AGmfu7jjvjm3AaLaJ3UbIYCTnIWIevJa73UjIFyTuYvjxU2VbyUUUUU
+
+--===============5372632873051657893==
+Content-Type: text/plain; charset="utf-8"
+MIME-Version: 1.0
+Content-Transfer-Encoding: base64
+
+5oOz6KaB6ZKx77yM5om+5oqV6KGMCiAgICAgICAgIOaCqOWlvSHlpoLmnpzmgqjmhL/mhI/njrDl
+nKjmipXotYTmiJHku6zvvIzmiJHku6zlsIbljYHlgI3lm57miqXkuo7mgqjjgIIKICAgICAgICAg
+5oiR5piv5YyX5Lqs6YKu55S15aSn5a2mMDHnuqfmnKznp5HnlJ/vvIzku4rlubTogIPkuIrljJfp
+gq7nmoTnoJTvvIzkuJPkuJrvvJrkv6Hlj7fkuI7kv6Hmga/lpITnkIbjgILnoJTnqbbmlrnlkJHv
+vJrnp7vliqhJUOaKgOacr+OAguWls+aci+WPi+S7iuW5tOS5n+iAg+S4iuWMl+mCrueahOeglO+8
+jOS4k+S4mu+8mumAmuS/oeS4juS/oeaBr+ezu+e7n+OAgueglOeptuaWueWQke+8muS4i+S4gOS7
+o+enu+WKqOWuveW4puWboOeJuee9keOAgeWFieS6pOaNoue9keOAgeWFieS7peWkque9keOAggog
+ICAgICAgICDmiJHku6zpg73mmK/ojYnmoLnnmoTlranlrZDvvIzlhrPlrprkuI3lho3kvp3pnaDl
+rrbph4zoh6rlt7Hop6PlhrPlrabotLnjgILlpoLmnpzmiJHku6znjrDlnKjmiYDlraYs6IO95Li6
+5oKo5Lul5ZCO5omA55SoLOacieWFrOWPuOeOsOWcqOaEv+aEj+W4ruWKqeaIkeS7rOino+WGs+iv
+u+eglOacn+mXtOeahOWtpui0uSzmr5XkuJrlkI7miJHku6zmhL/mhI/ljrvotLXlhazlj7jlsL3l
+v4PlsL3lipvnmoTlt6XkvZzjgILogIzlnKjku4rlkI7or7vnoJTnmoTkuKTlubTljYrph4ws5YWs
+5Y+45Y+v5Lul57uZ5oiR5Lus5o+Q6KaB5rGCLOaIkeS7rOaMieeFp+WFrOWPuOeahOaWueahiOad
+peWujOWWhOiHquW3sSzmr5XkuJrlkI7mm7Tlpb3nmoQ=
+
+--===============5372632873051657893==--

@@ -1,0 +1,56 @@
+Received: from m16.mail.163.com (unknown [117.135.210.2])
+	by gzga-mx-mta-g1-0 (Coremail) with SMTP id _____wC3H8HW_NZmT4fQAw--.53401S2;
+	Tue, 03 Sep 2024 20:11:02 +0800 (CST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=163.com;
+	s=s110527; h=Date:From:Subject:Content-Type:MIME-Version:
+	Message-ID; bh=dQgAF3glUMpGxMq+SDJEd6nLoZtdLGvVeuqRQZOeT68=; b=j
+	I/F5PJSm/54YDl19/V6BBTmQZuwDxCy7u3Rc76xRgsc1rET6G6rRxL4Q+irhdUMV
+	zaH3/rEI+qyozbm9/Qzf3d6FyncquPfezbiPOkTeRRjZOCWZyRfwb02TDa75MF58
+	gqPncTPOA9f154MlzeL4uNFjZYVBQOo3FyJX/Cr0xY=
+Received: from cjq15849290856$163.com ( [111.40.58.171] ) by
+ ajax-webmail-wmsvr-40-147 (Coremail) ; Tue, 3 Sep 2024 20:11:00 +0800 (CST)
+X-Originating-IP: [111.40.58.171]
+Date: Tue, 3 Sep 2024 20:11:00 +0800 (CST)
+From: =?GBK?B?tN7lq7O+?= <cjq15849290856@163.com>
+To: cjq15849290856 <cjq15849290856@126.com>
+Subject: =?GBK?B?1f2zo9PKvP4zMQ==?=
+X-Priority: 3
+X-Mailer: Coremail Webmail Server Version XT5.0.14 build 20240801(9da12a7b)
+ Copyright (c) 2002-2024 www.mailtech.cn 163com
+X-NTES-SC: AL_Qu2ZB/+dukwt5iifZOkfmk4Qju4+Xsa0u/ki2oJVOZ14jC7r+wQGY29qLEb76f6jBj2JvTG+Twp22+BrfYZfcZoWE3ZmxuOXdBqNb+SAyjv8Xg==
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_171939_1461610271.1725365460877"
+MIME-Version: 1.0
+Message-ID: <10caf249.b62f.191b7cb9f8d.Coremail.cjq15849290856@163.com>
+X-Coremail-Locale: zh_CN
+X-CM-TRANSID:_____wDX32jV_NZmS84VAA--.55013W
+X-CM-SenderInfo: 5fmtikqyuzjmaqyvlqqrwthudrp/xtbBMQFP9mV4HQMH+AADs2
+Authentication-Results: gzga-mx-mta-g1-0; spf=pass smtp.mail=cjq158492
+	90856@163.com; dkim=pass header.i=@163.com
+X-Coremail-Antispam: 1Uf129KBjDUn29KB7ZKAUJUUUUU529EdanIXcx71UUUUU7v73
+	VFW2AGmfu7jjvjm3AaLaJ3UbIYCTnIWIevJa73UjIFyTuYvj4RZo7KUUUUU
+
+------=_Part_171939_1461610271.1725365460877
+Content-Type: text/plain; charset=GBK
+Content-Transfer-Encoding: base64
+
+TUlUIGJic9PWsrvKx01JVAoKxuayxdTaw8C5+tK70fnSstPQyty1vdG50ta1xAoKztLDx9Kq09C7
+29HbCgogICAgINK7uPbT0MiktcTP1s/zysejrNTay67EvsnP09Cyu8nZyMvF9c312/OjrLb41NpN
+SVQgQkJTyc+8uLr1trzKx9K7sd+1ubXYxfrN9aGjCgogICAgINfQz7i/tL+0xMfQqcX1zfXb87XE
+o6y24LDrtrzKx7HIvc9GUaOsv9W6sL/ausW12MX6srXW0Ln6vczT/dbGtsi1xKGjCmh0dHBzOi8v
+d3d3LmJpbGliaWxpLmNvbS8=
+------=_Part_171939_1461610271.1725365460877
+Content-Type: text/html; charset=GBK
+Content-Transfer-Encoding: base64
+
+PGRpdiBkYXRhLW50ZXM9Im50ZXNfbWFpbF9ib2R5X3Jvb3QiIHN0eWxlPSJsaW5lLWhlaWdodDox
+Ljc7Y29sb3I6IzAwMDAwMDtmb250LXNpemU6MTRweDtmb250LWZhbWlseTpBcmlhbCI+PHAgc3R5
+bGU9Im1hcmdpbjowOyI+TUlUIGJic9PWsrvKx01JVDwvcD48cCBzdHlsZT0ibWFyZ2luOjA7Ij7G
+5rLF1NrDwLn60rvR+dKy09DK3LW90bnS1rXEPC9wPjxwIHN0eWxlPSJtYXJnaW46MDsiPs7Sw8fS
+qtPQu9vR2zwvcD48cCBzdHlsZT0ibWFyZ2luOjA7Ij4mbmJzcDsgJm5ic3A7ICZuYnNwO9K7uPbT
+0MiktcTP1s/zysejrNTay67EvsnP09Cyu8nZyMvF9c312/OjrLb41NpNSVQgQkJTyc+8uLr1trzK
+x9K7sd+1ubXYxfrN9aGjPC9wPjxkaXYgc3R5bGU9Im1hcmdpbjowOyI+Jm5ic3A7ICZuYnNwOyAm
+bmJzcDvX0M+4v7S/tMTH0KnF9c312/O1xKOstuCw67a8ysexyL3PRlGjrL/VurC/2rrFtdjF+rK1
+1tC5+r3M0/3WxrbItcShozwvZGl2PjxkaXYgc3R5bGU9Im1hcmdpbjowOyI+aHR0cHM6Ly93d3cu
+YmlsaWJpbGkuY29tLzwvZGl2PjwvZGl2Pg==
+------=_Part_171939_1461610271.1725365460877--

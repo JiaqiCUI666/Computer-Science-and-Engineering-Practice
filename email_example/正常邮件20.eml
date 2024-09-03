@@ -1,0 +1,44 @@
+Received: from m16.mail.163.com (unknown [117.135.210.4])
+	by gzga-mx-mta-g5-4 (Coremail) with SMTP id _____wDnV244stVm6SehAw--.41738S2;
+	Mon, 02 Sep 2024 20:40:24 +0800 (CST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=163.com;
+	s=s110527; h=Content-Type:MIME-Version:From:Subject:Message-Id:
+	Date; bh=zTlsYBaPgR60gRX3htCsjAxLapPLL1tPt8ykBZqQamo=; b=WJPR3B8
+	Oj/JvaXBowaEo5jKgsu/1J54QAQtpHbPXHa2S78HljaDvtXX2l358yvDOKct56TK
+	Fu8xIEnDlfMk9z4i1R4iCBjyGnVE/TUG4yN87rLyFGDByIRwbvvi+VjjtTxJ4ZjO
+	uSm9gtMHEgUuljzib5SeAdfXZacYPn5dWOvE=
+Received: from [192.168.48.1] (unknown [111.40.58.171])
+	by gzga-smtp-mta-g3-2 (Coremail) with SMTP id _____wD34640stVmdCsLHA--.43395S2;
+	Mon, 02 Sep 2024 20:40:20 +0800 (CST)
+Content-Type: multipart/mixed; boundary="===============0683216018502720983=="
+MIME-Version: 1.0
+From: cjq15849290856@163.com
+To: cjq15849290856@126.com
+Subject: =?utf-8?b?5q2j5bi46YKu5Lu2MjA=?=
+X-CM-TRANSID:_____wD34640stVmdCsLHA--.43395S2
+Message-Id:<66D5B238.2D3CF1.00015@m16.mail.163.com>
+X-Originating-IP: [111.40.58.171]
+Date: Mon, 2 Sep 2024 20:40:24 +0800 (CST)
+X-CM-SenderInfo: 5fmtikqyuzjmaqyvlqqrwthudrp/xtbBMRhO9mV4HPByfgAAss
+Authentication-Results: gzga-mx-mta-g5-4; spf=pass smtp.mail=cjq158492
+	90856@163.com; dkim=pass header.i=@163.com
+X-Coremail-Antispam: 1Uf129KBjDUn29KB7ZKAUJUUUUU529EdanIXcx71UUUUU7v73
+	VFW2AGmfu7jjvjm3AaLaJ3UbIYCTnIWIevJa73UjIFyTuYvjxUU5l1DUUUU
+
+--===============0683216018502720983==
+Content-Type: text/plain; charset="utf-8"
+MIME-Version: 1.0
+Content-Transfer-Encoding: base64
+
+6L+Z5Liq6KGM5Lia6L+Z5LmI5L2O55qE6Jaq5rC055qE5Lq65bmy5Ye655qE5rS75LiN5pWi5oGt
+57u0CiAgICAg6KGM5Lia5YiG5p6Q5biICiAgICAg5YyX5Lqs5rGJ6byO5LiW57qq5ZKo6K+i5pyJ
+6ZmQ5YWs5Y+45L6d5omY5ZWG5Yqh6YOo5oiQ56uL77yM5Zyo5Lit5Zu9546H5YWI5YCh5a+85bm2
+5oyB57ut6Ie05Yqb5LqO5LyB5Lia5YW85bm26YeN57uE44CB5LyB5Lia5pWw5o2u5rex6K6/44CB
+6auY5bGC6K6/6LCI44CB5Ye65Y+j55uu55qE5Zyw5oqV6LWE5ZKo6K+i44CC5YmN55675oCn5Zyw
+5oqK5o+h6KGM5Lia5oqV6LWE5Yqo5oCB77yM6Iez5LuK77yM5rGJ6byO5bey57uP6LWi5b6X5LqG
+5Zu95YaF5a6i5oi35ZKM6Leo5Zu95LyB5Lia55qE5L+h5Lu75LiO5pSv5oyB77yM5bm25LiU5oiQ
+5Li65LyX5aSa6Leo5Zu95LyB5Lia5Zyo5Lit5Zu955qE6Imv5aW955qE5ZCI5L2c5LyZ5Ly077yM
+5bm25Zyo5Lit5Zu95pyA5YW35b2x5ZON5Yqb55qE6KGM5Lia5YW85bm26YeN57uE5ZKo6K+i5YWs
+5Y+45LmL5LiA44CCCiAgICAg6IGM5L2N6KaB5rGC77ya
+
+--===============0683216018502720983==--

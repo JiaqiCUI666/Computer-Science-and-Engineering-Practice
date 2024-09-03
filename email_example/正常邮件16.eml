@@ -1,0 +1,45 @@
+Received: from m16.mail.163.com (unknown [117.135.210.4])
+	by gzga-mx-mta-g5-0 (Coremail) with SMTP id _____wD3__00stVmA655BA--.15458S2;
+	Mon, 02 Sep 2024 20:40:20 +0800 (CST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=163.com;
+	s=s110527; h=Content-Type:MIME-Version:From:Subject:Message-Id:
+	Date; bh=TWBDr39S3AkdCLUEq++J19/Td82xt0LPGW9PRT9kQ5w=; b=GNqK+z9
+	4Esu2HWFgwrLD31hmyydiW2q+7bpCIvZqTA2nwS5hyfOMEoZg9ceZS8DUJWQfQ3d
+	cvOFy+nIl1lFnnzzlMNk/9Bw7gEaDBNQEy7H5QK3OTrudeDCBuyi6sD13H1Kw1Fw
+	krBkPFLRX8R62/SMgYcc+oHAjmMhQ+JUefhc=
+Received: from [192.168.48.1] (unknown [111.40.58.171])
+	by gzga-smtp-mta-g2-3 (Coremail) with SMTP id _____wDX_0IwstVmsgHuAg--.24566S2;
+	Mon, 02 Sep 2024 20:40:17 +0800 (CST)
+Content-Type: multipart/mixed; boundary="===============5772209191002578079=="
+MIME-Version: 1.0
+From: cjq15849290856@163.com
+To: cjq15849290856@126.com
+Subject: =?utf-8?b?5q2j5bi46YKu5Lu2MTY=?=
+X-CM-TRANSID:_____wDX_0IwstVmsgHuAg--.24566S2
+Message-Id:<66D5B234.30730D.00015@m16.mail.163.com>
+X-Originating-IP: [111.40.58.171]
+Date: Mon, 2 Sep 2024 20:40:20 +0800 (CST)
+X-CM-SenderInfo: 5fmtikqyuzjmaqyvlqqrwthudrp/xtbBMRRO9mV4HPByVAAAsK
+Authentication-Results: gzga-mx-mta-g5-0; spf=pass smtp.mail=cjq158492
+	90856@163.com; dkim=pass header.i=@163.com
+X-Coremail-Antispam: 1Uf129KBjDUn29KB7ZKAUJUUUUU529EdanIXcx71UUUUU7v73
+	VFW2AGmfu7jjvjm3AaLaJ3UbIYCTnIWIevJa73UjIFyTuYvjxUU5l1DUUUU
+
+--===============5772209191002578079==
+Content-Type: text/plain; charset="utf-8"
+MIME-Version: 1.0
+Content-Transfer-Encoding: base64
+
+5L2g5pyJ5Lqb5LmW5LmW55qE4oCm4oCmCuWcqCBvcGVyYXRlciAo54uC566X5a2QKSDnmoTlpKfk
+vZzkuK3mj5DliLA6IOOAkQogICAgIOiupOivhmdm5LmL6Ze077yM5ZCs6K+05aW55b6I6Ieq56uL
+77yM5Yid5qyh6KeB6Z2i5Lmf6L+Z5LmI5oSf6KeJ77yM5L2G5piv5ZCO5p2l5bCx5Y+Y5LqG77yM
+5LiA5qyh5oiR5Lus5LiA6LW35Z2Q54Gr6L2m77yM5aW55aaI6YCB5aW55Yiw6L2m56uZ77yM5ZGK
+6K+J5oiR6K+05aW55aWz5YS/5pmV6L2m77yM5L2G5piv5ZCO5p2l55qE5Lqk5b6A6K+B5piO5aW5
+5LiN5pmV6L2m44CC5LiA5qyh5oiR5Lus5LiA6LW35Z2Q54Gr6L2m77yM5aW55aaI57uZ5aW55ou/
+5LqG5LiA5YWc57OV54K577yM5ZGK6K+J5oiR5piv57uZ5aW55ZCM5LqL55qE77yM5ZCO5p2l5Z+6
+5pys6K+B5piO5piv57uZ5aW55aWz5YS/55qE44CCCiAgICAg5LiN5piO55m95Li65LuA5LmI5aW5
+6KaB6aqX5oiR44CCCiAgICAg5ZCO5p2lZ2bkuZ/lj5jlvpfkuI3pgqPkuYjoh6rnq4vkuobvvIzl
+pbnor7TluIzmnJvku6XlkI7lpbnlm57liLDlrrblsLHku4DkuYjlv4PkuZ/kuI3mk43vvIzku4Dk
+uYjkuovkuZ/kuI3mg7PjgII=
+
+--===============5772209191002578079==--

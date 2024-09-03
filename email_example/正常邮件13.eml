@@ -1,0 +1,54 @@
+Received: from m16.mail.163.com (unknown [117.135.210.3])
+	by gzmx11 (Coremail) with SMTP id rykvCgDXb_svstVmm0JuAA--.32253S2;
+	Mon, 02 Sep 2024 20:40:15 +0800 (CST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=163.com;
+	s=s110527; h=Content-Type:MIME-Version:From:Subject:Message-Id:
+	Date; bh=H2bba4UqoAmfb8zSQQV52g2Ly4iBb3knOG+JYry5wwY=; b=PmEmA7X
+	CihdhmjLOlVpl+K4PF8pim+NT/P0grpuYARl1BUr2Fnp0w9fBWlWKRPypTQZzKHI
+	QXsNFsu8cgE5xtj2zrRHFx5j0CHyNybLYwcb9yjjdmQEl0D/x+aLiwzZVZOvvVA7
+	haaQFwNBQK0dJ9JDj1xpF6LBC/dlYFTWfh2Y=
+Received: from [192.168.48.1] (unknown [111.40.58.171])
+	by gzga-smtp-mta-g2-2 (Coremail) with SMTP id _____wBX_w4ustVmFNXSFA--.12853S2;
+	Mon, 02 Sep 2024 20:40:14 +0800 (CST)
+Content-Type: multipart/mixed; boundary="===============4601326995063569379=="
+MIME-Version: 1.0
+From: cjq15849290856@163.com
+To: cjq15849290856@126.com
+Subject: =?utf-8?b?5q2j5bi46YKu5Lu2MTM=?=
+X-CM-TRANSID:_____wBX_w4ustVmFNXSFA--.12853S2
+Message-Id:<66D5B22F.30730C.00015@m16.mail.163.com>
+X-Originating-IP: [111.40.58.171]
+Date: Mon, 2 Sep 2024 20:40:15 +0800 (CST)
+X-CM-SenderInfo: 5fmtikqyuzjmaqyvlqqrwthudrp/xtbBMQ9O9mV4HPByGgAAsf
+Authentication-Results: gzmx11; spf=pass smtp.mail=cjq15849290856@163.
+	com; dkim=pass header.i=@163.com
+X-Coremail-Antispam: 1Uf129KBjvdXoWruF4fZw18Kr1kKryUZF1fZwb_yoW3AFX_Ar
+	y5Xryjgr4Skw1vy3yfWw4I9F4xtFW8Ka95AFW7ur4UGrZrZ39xWa47Ca4fXF98Xr4Ykw4U
+	try8tr4rWF13AjkaLaAFLSUrUUUUjb8apTn2vfkv8UJUUUU8Yxn0WfASr-VFAU7a7-sFnT
+	9fnUUvcSsGvfC2KfnxnUUI43ZEXa7IU8gBMJUUUUU==
+
+--===============4601326995063569379==
+Content-Type: text/plain; charset="utf-8"
+MIME-Version: 1.0
+Content-Transfer-Encoding: base64
+
+5oiR55qE5oSf6KeJ5bCx5piv5L2g5qC55pys5LiN54ix5aW5CiAgICAg5oiR5LiN55+l6YGT5oiR
+5LuK5aSp5L2c55qE5aW95LiN5aW944CCCiAgICAg5ZKM5aWz5Y+L5omT55S16K+d55qE5pe25YCZ
+5LiN55+l6YGT5oCO5LmI6K+05Yiw5aW555qE6Lqr5L2T5LqG77yM5oiR6K+05oiR5ZKM5a625Lq6
+6K+05aW55bmz5bi45bCP55eF5q+U5LiA6Iis5Lq65aSa5LiA5Lqb77yM55y8552b5bqm5pWw5b6I
+6auY77yI5rKh5pWi6K+06YO95pivMTAwMOW6puS7peS4iu+8ie+8jOiDg+WPo+S5n+S4jeaYr+W+
+iOWlveOAgue7k+aenOWlueeUn+awlOS6hu+8jOmXruaIkeS8muS4jeS8muWboOS4uuWlueeahOi6
+q+S9k+S4jeimgeWlue+8jOaIkeivtOaIkeiCr+WumuimgeiAg+iZkeWutumHjOeahOaEj+inge+8
+jOWlueWwseimgeWSjOaIkeWIhuaJi+S6huOAguivtOS6huWlveWkmuS8pOW/g+eahOivne+8jOW9
+k+eEtui/meauteaXtumXtOS4gOaWuemdouWunumqjOW/me+8jOWPpuS4gOaWuemdouaIkeeItuav
+jeaAu+aYr+WvueWluei6q+S9k+WutuWig+acieS6m+S4jea7oe+8jO+8iOaIkei/mOayoeaVouiv
+tOi/mOaciei9u+W6pueLkOiHre+8ieaIkeS5n+W+iOaYr+S4pOmavu+8jOS4jeefpemBk+aAjuS5
+iOWKnuOAggogICAgIOWutumHjOaAu+aYr+inieW+l+eci+eOsOWcqOeKtuaAgeaEn+inieS4jeaY
+r+W+iOWlve+8jOaIkeaYr+inieW+l+WSjOWlueaDs+WHuui/mOeul+S4jemUme+8jOiEvuawlOW+
+iOWlve+8jOavlOi+g+a4qeaflOOAguWls+WPi+efrea2iOaBr+mHjOmdoui/mOivtOS7luS7rOmC
+o+mHjOacieS4quWls+eahOW+l+S6humHjeeXhe+8jOaOpei/keayu+S4jeWlveeahOmCo+enje+8
+jOWlueeUt+WPi+S5n+aYr+aIkeS7rOWtpuagoeeahO+8jOS4uuS6huWluemDveS4jeivu+WNmuW3
+peS9nOS6huaMo+mSsee7meWlueayu+eXhe+8jOavlOi+g+S4i+adpeaIkeWwseWPquaYr+WWnOas
+ouWlue+8jOagueacrOS4jeeIseWlueOAguWUlOWUlOWUlA==
+
+--===============4601326995063569379==--

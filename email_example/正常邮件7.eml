@@ -1,0 +1,48 @@
+Received: from m16.mail.163.com (unknown [117.135.210.2])
+	by gzga-mx-mta-g4-2 (Coremail) with SMTP id _____wDnN4MtstVm+uxEBA--.8434S2;
+	Mon, 02 Sep 2024 20:40:13 +0800 (CST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=163.com;
+	s=s110527; h=Content-Type:MIME-Version:From:Subject:Message-Id:
+	Date; bh=rg8taTx3xOUQkT50wAhMiBoU8xAvkoFqMf/TdiULC44=; b=jGSpZt1
+	ReHnJw2Q29O+v0f1ffW7YpJQqbZ5ih4/jvQM7zHiuOh7bwg6nSLdJ1jZJdp/mFCx
+	gDu81MBf55lNbckP40a/wVK8eYm7HdcPU3oHv+o3LivxaG0D20n4QntEqQAm/Mxh
+	/hyVFHcav4miq55HGhAKFK6XFHufljjho/00=
+Received: from [192.168.48.1] (unknown [111.40.58.171])
+	by gzga-smtp-mta-g1-0 (Coremail) with SMTP id _____wD3_y0pstVmCR3dEA--.8144S2;
+	Mon, 02 Sep 2024 20:40:10 +0800 (CST)
+Content-Type: multipart/mixed; boundary="===============7930332302664949419=="
+MIME-Version: 1.0
+From: cjq15849290856@163.com
+To: cjq15849290856@126.com
+Subject: =?utf-8?b?5q2j5bi46YKu5Lu2Nw==?=
+X-CM-TRANSID:_____wD3_y0pstVmCR3dEA--.8144S2
+Message-Id:<66D5B22D.01FE4C.00015@m16.mail.163.com>
+X-Originating-IP: [111.40.58.171]
+Date: Mon, 2 Sep 2024 20:40:13 +0800 (CST)
+X-CM-SenderInfo: 5fmtikqyuzjmaqyvlqqrwthudrp/1tbiEA1O9mXAmyK3JgAAso
+Authentication-Results: gzga-mx-mta-g4-2; spf=pass smtp.mail=cjq158492
+	90856@163.com; dkim=pass header.i=@163.com
+X-Coremail-Antispam: 1Uf129KBjvdXoWrJr48tr15Xr17WF1DuF18Grg_yoWxWwb_XF
+	1jy3ZrXFZ5Crnav3yYy3W2k342gasFqrnYg3yxX345tryvyw1rCFsYvFZakryI9w1xZ34Y
+	q3ZFvw1vkw1SkjkaLaAFLSUrUUUUjb8apTn2vfkv8UJUUUU8Yxn0WfASr-VFAU7a7-sFnT
+	9fnUUvcSsGvfC2KfnxnUUI43ZEXa7xRiiF4JUUUUU==
+
+--===============7930332302664949419==
+Content-Type: text/plain; charset="utf-8"
+MIME-Version: 1.0
+Content-Transfer-Encoding: base64
+
+UG9zaXRpb24gRGVzY3JpcHRpb246ICAKQSBwb3N0ZG9jdG9yYWwgZmVsbG93IHBvc2l0aW9uIGlz
+IGF2YWlsYWJsZSBpbW1lZGlhdGVseSB0byBwYXJ0aWNpcGF0ZSBpbiAKcHJvamVjdHMgb24gZ2Vu
+ZSB0aGVyYXB5LiAgUmVzZWFyY2ggd2lsbCBmb2N1cyBvbiBkZXZlbG9waW5nIGdlbmUgdGhlcmFw
+eSAKc3RyYXRlZ2llcyBmb3IgaGVtb3BoaWxpYSBhbmQgV2lza290dC1BbGRyaWNoIFN5bmRyb21l
+LiAgQXBwbGljYW50cyB3aXRoIApQaC5ELiBvciBlcXVpdmFsZW50IHNob3VsZCBoYXZlIHRyYWlu
+aW5nIGluIG1vbGVjdWxhciBhbmQgY2VsbHVsYXIgYmlvbG9neS4gClRyYWluaW5nIGluIGltbXVu
+b2xvZ3kgaXMgcHJlZmVycmVkIGJ1dCBub3QgcmVxdWlyZWQuIApDb250YWN0OiAgICBDYXJvbCBN
+aWFvLCBQaEQKRGVwYXJ0bWVudCBvZiBQZWRpYXRyaWNzClVuaXZlcnNpdHkgb2YgV2FzaGluZ3Rv
+biAmYW1wOwpDaGlsZHJlbuKAmXMgSG9zcGl0YWwgYW5kIFJlZ2lvbmFsIE1lZGljYWwgQ2VudGVy
+CjMwNyBXZXN0bGFrZSBBdmVudWUgTm9ydGgKU2VhdHRsZSwgV0EgOTgxOTUKVVNBClBob25lOiAo
+MjA2KSA5ODctNzMxNgpGYXg6ICgyMDYpIDk4Ny03MzEwCkUtbWFpbDogICAgbWlhb0B1Lndhc2hp
+bmd0b24uZWR1
+
+--===============7930332302664949419==--
