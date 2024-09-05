@@ -277,13 +277,13 @@ const router = useRouter();
     margin-left: 0.13rem;
     color: #ffffff;
     font-size: 1.5rem;
-    font-family: "Noto Sans", sans-serif; /* 使用黑体字体 */
+    font-family: "Noto Serif SC", serif; /* 使用黑体字体 */
     font-weight: 700;
     line-height: 1.31rem;
   }
   .font {
     font-size: 1.2rem; /* 增大字体大小 */
-    font-family: "Noto Sans", sans-serif; /* 使用黑体字体 */
+    font-family: "Noto Serif SC", serif; /* 使用黑体字体 */
     line-height: 0.94rem;
     color: #ffffff;
   }
@@ -302,13 +302,13 @@ const router = useRouter();
   .text_5 {
     color: #ffffff;
     font-size: 3rem;
-    font-family: "Noto Sans", sans-serif;
+    font-family: "Noto Serif SC", serif;
     line-height: 2.7rem;
   }
   .text_6 {
     color: #ffffff;
     font-size: 1.3rem;
-    font-family: "Noto Sans", sans-serif;
+    font-family: "Noto Serif SC", serif;
     line-height: 1.14rem;
   }
   .section {
@@ -322,7 +322,7 @@ const router = useRouter();
   }
   .font_2 {
     font-size: 1.75rem;
-    font-family: "Noto Sans", sans-serif;
+    font-family: "Noto Serif SC", serif;
     line-height: 1.5rem;
     font-weight: 800;
     color: #ffffff;
@@ -339,7 +339,7 @@ const router = useRouter();
   }
   .font_3 {
     font-size: 1.5rem;
-    font-family: "Noto Sans", sans-serif;
+    font-family: "Noto Serif SC", serif;
     line-height: 1.21rem;
     font-weight: 800;
     color: #000000;
@@ -349,7 +349,7 @@ const router = useRouter();
   }
   .font_4 {
     font-size: 1.2rem;
-    font-family: "Noto Sans", sans-serif;
+    font-family: "Noto Serif SC", serif;
     line-height: 2rem;
     color: #374151;
   }
@@ -388,7 +388,7 @@ const router = useRouter();
   }
   .font_5 {
     font-size: 1.2rem;
-    font-family: "Noto Sans", sans-serif;
+    font-family: "Noto Serif SC", serif;
     line-height: 2rem;
     color: #1f2937;
   }
@@ -432,7 +432,7 @@ const router = useRouter();
   }
   .font_6 {
     font-size: 1rem;
-    font-family: "Noto Sans", sans-serif;
+    font-family: "Noto Serif SC", serif;
     line-height: 0.94rem;
     color: #4b5563;
   }
@@ -477,7 +477,7 @@ const router = useRouter();
   .text_23 {
     color: #ffffff;
     font-size: 1.5rem;
-    font-family: "Noto Sans", sans-serif;
+    font-family: "Noto Serif SC", serif;
     line-height: 1.04rem;
   }
   .text_24 {

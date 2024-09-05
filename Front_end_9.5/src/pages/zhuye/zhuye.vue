@@ -106,19 +106,19 @@
     margin-left: 0.13rem;
     color: #ffffff;
     font-size: 1.5rem; /* 增加字体大小 */
-    font-family: "Noto Sans", sans-serif; /* 使用黑体字体 */
+    font-family: "Noto Serif SC", serif; /* 使用黑体字体 */
     font-weight: 700;
     line-height: 1.31rem;
   }
   .font {
     font-size: 1.2rem;
-    font-family: "Noto Sans", sans-serif; /* 使用黑体字体 */
+    font-family: "Noto Serif SC", serif; /* 使用黑体字体 */
     line-height: 0.94rem;
     color: #ffffff;
   }
   .font:hover {
     color: #7c9bcd;
-    font-family: "Noto Sans", sans-serif;
+    font-family: "Noto Serif SC", serif;
     transform: scale(1.1);
   }
   .text_2 {
@@ -155,11 +155,11 @@
   .title {
     font-size: 6rem; /* 增加标题字体大小 */
     font-weight: bold;
-    font-family: "Noto Sans", sans-serif; /* 使用黑体字体 */
+    font-family: "Noto Serif SC", serif; /* 使用黑体字体 */
   }
   .description {
     font-size: 1.2rem;
     line-height: 2; /* 增大行间距 */
-    font-family: "Noto Sans", sans-serif; /* 使用黑体字体 */
+    font-family: "Noto Serif SC", serif; /* 使用黑体字体 */
   }
 </style>
