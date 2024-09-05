@@ -21,19 +21,19 @@ public class CosConfig {
     /**
      * 腾讯云账号秘钥
      */
-    private String secretId="AKID75xd5PVXCfw0DLRL287PZXIqAG8mDVZP";
+    private String secretId="x";
     /**
      * 密码秘钥
      */
-    private String secretKey="g9NTLzWrysiT8jszvjKo7C8ujPuENLQW";
+    private String secretKey="x";
     /**
      * 存储桶地区
      */
-    private String region="ap-beijing";
+    private String region="x";
     /**
      * 存储桶名称
      */
-    private String bucketName="image-1326902616";
+    private String bucketName="x";
     /**
      * 存储桶访问路径
      */
