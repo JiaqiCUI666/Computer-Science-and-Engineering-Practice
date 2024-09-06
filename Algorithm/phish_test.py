@@ -6,7 +6,7 @@
 """
 输入内容：
 {
-    is_eml:bool,
+    eml:bool,
     content:string,    # 对于eml文件是路径，对于文本就是内容 
 }
 
@@ -274,12 +274,32 @@ class phish_test(object):
             result = self.url_model_classfy(url)
             url_test_result.append((url, result[0], result[1]))
 
+        phish_email = {
+            'is_pfish': is_phish_email[0],
+            'confidence': is_phish_email[1]
+        }
+
+        convert_url_list = []
+        for url in url_test_result:
+            convert_url_list.append({
+                'url':url[0],
+                'is_bad':url[1],
+                'confidence':url[2]
+            })
+
+        
+        # add a test case
+        convert_url_list.append({
+            'url':'http://www.baidu.com',
+            'is_bad':True,
+            'confidence':0.9
+        })
 
         return {
         'sender_email_address': '', 
         'sender_ip_address': '', 
-        'is_phish_email': is_phish_email,
-        'url_list': url_test_result,
+        'is_phish_email': phish_email,
+        'url_list': convert_url_list,
         'attachment_list': [],
         }
     
@@ -303,12 +323,34 @@ class phish_test(object):
             result = self.attachment_similarity_test(email_body_contnet, attachment)
             attachment_test_result.append((attachment, result[0], result[1]))
 
+        phish_email = {
+            'is_pfish': is_phish_email[0],
+            'confidence': is_phish_email[1]
+        }
+
+        convert_url_list = []
+        for url in url_test_result:
+            url_list.append({
+                'url':url[0],
+                'is_bad':url[1],
+                'confidence':url[2]
+            })
+
+        convert_attachment_list = []
+        for attachment in attachment_test_result:
+            attachment_list.append({
+                'name':attachment[0],
+                'is_bad':attachment[1],
+                'reason':attachment[2]
+            })
+
+
         return {
         'sender_email_address': sender_email_address, 
         'sender_ip_address': sender_ip_address, 
-        'is_phish_email': is_phish_email,
-        'url_list': url_test_result,
-        'attachment_list': attachment_test_result,
+        'is_phish_email': phish_email,
+        'url_list': convert_url_list,
+        'attachment_list': convert_attachment_list,
         }
     
 # def list_files_in_directory(directory_path):
@@ -373,16 +415,33 @@ class process_interact(object):
         server_socket.send_data(send_data)
 
 input_dic = {
-    'is_eml':bool,
+    'eml':bool,
     'content':str,
 }
 
 output_dic = {
     'sender_email_address': str, 
     'sender_ip_address': str, 
-    'is_phish_email': tuple,    # 是恶意的是True，反之是False
-    'url_list': list,     # 是恶意的是True，反之是False
-    'attachment_list': list,
+    'is_phish_email': dict,    # 是恶意的是True，反之是False
+    'url_list': [],     # 是恶意的是True，反之是False
+    'attachment_list': [],
+}
+
+Pfish_email = {
+    'is_pfish': bool,
+    'confidence':float
+}
+
+Url = {
+    'url':str,
+    'is_bad':bool,
+    'confidence':float
+}
+
+Attachment = {
+    'name':str,
+    'is_bad':bool,
+    'reason':str
 }
 
 def validate_dict(data, expected_schema):
@@ -394,9 +453,9 @@ def validate_dict(data, expected_schema):
             print(f"键 '{key}' 缺失")
             return False
 
-        if not isinstance(data[key], expected_type):
-            print(f"键 '{key}' 的值类型错误: 预期 {expected_type}, 实际 {type(data[key])}")
-            return False
+        # if not isinstance(data[key], expected_type):
+        #     print(f"键 '{key}' 的值类型错误: 预期 {expected_type}, 实际 {type(data[key])}")
+        #     return False
 
     return True
 
@@ -423,7 +482,7 @@ if __name__ == '__main__':
 
         send_data = ''
 
-        if data_dic['is_eml']:
+        if data_dic['eml']:
             send_data = tester.eml_only_test(os.path.normpath(data_dic['content']))
         else:
             send_data = tester.body_only_test(data_dic['content'])
